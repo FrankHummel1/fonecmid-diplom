@@ -102,7 +102,7 @@
 	0,
 	ОстаткиНаКонец.СуммаОстаток
 ИЗ
-	РегистрНакопления.ВКМ_ВзаиморасчетыССотрудниками.Остатки(ДОБАВИТЬКДАТЕ(&amp;КонецПериода, СЕКУНДА, 1), ) КАК ОстаткиНаКонец</query>
+	РегистрНакопления.ВКМ_ВзаиморасчетыССотрудниками.Остатки(&amp;КонецПериода, ) КАК ОстаткиНаКонец</query>
 	</dataSet>
 	<totalField>
 		<dataPath>ДолгНаНачало</dataPath>
@@ -183,6 +183,9 @@
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Документ</dcsset:field>
+				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ДолгНаНачало</dcsset:field>
 				</dcsset:item>
