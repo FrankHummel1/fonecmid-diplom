@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="589e98c3-620b-43cd-9b0c-dcfae3c9ab43">
+  <producedTypes>
+    <objectType typeId="89a81d93-142e-40bd-a703-224ea260a3dd" valueTypeId="50a53bbb-2998-43c5-90ee-ab1269b11061"/>
+    <managerType typeId="6022d5d3-6ead-4d54-a69a-ebb76d806306" valueTypeId="a4fae3ad-6e5d-4155-b5aa-f6416a970379"/>
+  </producedTypes>
+  <name>ВКМ_ЗаполнениеДемоДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение демонстрационных данных (ВКМ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_ЗаполнениеДемоДанных.Form.Форма</defaultForm>
+  <forms uuid="d32d119c-a111-4f48-ab52-416f7908ac4c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
