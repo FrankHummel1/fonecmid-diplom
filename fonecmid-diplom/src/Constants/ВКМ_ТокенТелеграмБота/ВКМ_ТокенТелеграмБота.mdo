@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="949310a2-1ff2-4979-95ee-6592b95619ad">
+  <producedTypes>
+    <managerType typeId="aac039db-ac5b-476c-8592-b3cc36c61a78" valueTypeId="f2ba13ad-f3eb-40d0-b775-f515c894e071"/>
+    <valueManagerType typeId="701f17f4-1e58-47f3-b75c-c0f54a325c5c" valueTypeId="a6cf89a3-7bd6-4681-b235-96431b9b71ee"/>
+    <valueKeyType typeId="a7611d1f-1521-447e-98f4-674649a499b3" valueTypeId="deb37568-3fda-4321-99e8-6ef5a190ecc1"/>
+  </producedTypes>
+  <name>ВКМ_ТокенТелеграмБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен управления телеграм-ботом</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Токен, выданный BotFather при создании бота</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
