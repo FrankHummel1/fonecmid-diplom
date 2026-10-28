@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91ea55b1-bc67-4580-8504-16165892c32e">
+  <producedTypes>
+    <selectionType typeId="625d7fee-d8f0-4031-bd03-853cae597c08" valueTypeId="0eb7ead5-d29b-40f5-a624-52f3da7ac914"/>
+    <listType typeId="dabbc920-8445-4499-adc0-b480aedccb71" valueTypeId="9ff5380c-6909-493a-9b50-0d29c8decf3b"/>
+    <managerType typeId="1a552115-8d66-40a9-b4ac-2e0125568f27" valueTypeId="3c7de0cb-3462-4c40-9ced-1ad3da1b3805"/>
+    <recordSetType typeId="b2be3b52-1686-4999-9397-aab6c3ea7bdd" valueTypeId="4401b676-e788-4c92-97a3-c5cf039eb6a0"/>
+    <recordKeyType typeId="3a4cffba-1ff5-44a8-a851-bdbc9e19c267" valueTypeId="2bc31da9-23a2-4bfd-b739-8e315d9d6e7a"/>
+    <recordType typeId="5c1af8d8-36d4-40f9-ba0f-e267bcf3171c" valueTypeId="54e16bab-eb6d-44a6-b019-c0d9fa098191"/>
+    <recalcsType typeId="9d28b1df-f460-4c37-9112-4da1056f5761" valueTypeId="906be450-477b-4054-aaaf-3784b82b64d5"/>
+  </producedTypes>
+  <name>ВКМ_Удержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удержания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <basePeriod>true</basePeriod>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartOfCalculationTypes>
+  <standardAttributes>
+    <name>Active</name>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+  </standardAttributes>
+  <standardAttributes>
+    <name>RegistrationPeriod</name>
+  </standardAttributes>
+  <standardAttributes>
+    <name>CalculationType</name>
+  </standardAttributes>
+  <standardAttributes>
+    <name>ReversingEntry</name>
+  </standardAttributes>
+  <standardAttributes>
+    <name>BegOfBasePeriod</name>
+  </standardAttributes>
+  <standardAttributes>
+    <name>EndOfBasePeriod</name>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f0d91c93-eca6-4c56-9e24-309ebf2b63e1">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f3e22c21-42ff-419b-942a-4fd5f71199a2">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <baseDimension>true</baseDimension>
+  </dimensions>
+</mdclass:CalculationRegister>
