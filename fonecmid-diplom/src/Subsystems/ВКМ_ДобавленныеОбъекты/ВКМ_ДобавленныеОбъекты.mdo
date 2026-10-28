@@ -53,4 +53,5 @@
   <content>Role.ВКМ_ОтчетВыработкаСпециалистов</content>
   <content>Role.ВКМ_ОтчетАнализВыставленныхАктов</content>
   <content>Role.ВКМ_ОтчетыПоЗарплате</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеДемоДанных</content>
 </mdclass:Subsystem>
