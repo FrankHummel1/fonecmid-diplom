@@ -627,6 +627,7 @@
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеОбслуживанийКлиентов</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеСотрудников</roles>
+  <roles>Role.ВКМ_МассовоеСозданиеАктов</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -885,6 +886,7 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
+  <commonModules>CommonModule.ВКМ_УправлениеДоступом</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
