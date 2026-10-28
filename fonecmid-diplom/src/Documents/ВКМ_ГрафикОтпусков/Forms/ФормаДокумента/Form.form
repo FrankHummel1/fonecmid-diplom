@@ -214,7 +214,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ОтпускаСотрудниковПериодПриИзменении</name>
+        <name>ОтпускаСотрудниковСотрудникПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ОтпускаСотрудниковСотрудникРасширеннаяПодсказка</name>
@@ -258,7 +258,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ОтпускаСотрудниковПериодПриИзменении</name>
+        <name>ОтпускаСотрудниковДатаНачалаПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ОтпускаСотрудниковДатаНачалаРасширеннаяПодсказка</name>
@@ -302,7 +302,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ОтпускаСотрудниковПериодПриИзменении</name>
+        <name>ОтпускаСотрудниковДатаОкончанияПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ОтпускаСотрудниковДатаОкончанияРасширеннаяПодсказка</name>
