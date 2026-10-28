@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7142e60f-5e59-4025-83eb-4f65a1ce6ad5">
+  <name>ВКМ_РасчетЗарплатыКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет зарплаты клиент-сервер (ВКМ)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

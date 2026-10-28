@@ -38,4 +38,11 @@
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
   <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>Document.ВКМ_НачислениеЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>CommonModule.ВКМ_РасчетЗарплаты</content>
+  <content>CommonModule.ВКМ_РасчетЗарплатыКлиентСервер</content>
+  <content>Role.ВКМ_РасчетЗарплаты</content>
 </mdclass:Subsystem>
