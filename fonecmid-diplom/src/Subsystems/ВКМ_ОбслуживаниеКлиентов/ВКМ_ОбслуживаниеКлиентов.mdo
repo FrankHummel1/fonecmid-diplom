@@ -11,4 +11,7 @@
     <picture>CommonPicture.ИконкаНетология</picture>
   </picture>
   <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
 </mdclass:Subsystem>
