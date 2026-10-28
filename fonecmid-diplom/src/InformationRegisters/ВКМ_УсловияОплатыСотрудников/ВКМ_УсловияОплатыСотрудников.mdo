@@ -31,6 +31,14 @@
   </standardAttributes>
   <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Условия оплаты сотрудника</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Условия оплаты сотрудников</value>
+  </listPresentation>
   <resources uuid="af803314-0467-46d4-b9b4-eea7c2df9edb">
     <name>Оклад</name>
     <synonym>
