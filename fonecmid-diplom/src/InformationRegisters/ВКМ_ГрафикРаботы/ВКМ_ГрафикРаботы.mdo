@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bf1e499-4547-466e-ad46-72ac9f5b45d8">
+  <producedTypes>
+    <selectionType typeId="a10923cd-5ec7-4807-82c7-3bc6ec1c0c20" valueTypeId="7adcc543-0739-42e6-8ca3-fcd6397e0af0"/>
+    <listType typeId="f58027fa-8aee-4414-9682-cefc6168c299" valueTypeId="ac72c7b0-8827-425e-9799-21dbc84a27ee"/>
+    <managerType typeId="a8621aa1-9e8c-414e-8659-610cec912295" valueTypeId="f8416c8f-86a2-4b81-baae-2ac1af35addb"/>
+    <recordSetType typeId="9d606d06-5bba-4d92-a83e-ce1b4d20eb4e" valueTypeId="8b455f5a-6077-46f6-bcee-449a8953a79c"/>
+    <recordKeyType typeId="3a4a3365-e005-4709-9f87-dccf66e2c793" valueTypeId="d9637107-fc68-46f9-a3e1-490616035a9a"/>
+    <recordType typeId="a42c06c0-b2d1-4e5d-8d72-cc49df3eb641" valueTypeId="20436e99-8786-4459-9827-8e0f4f74fa22"/>
+    <recordManagerType typeId="8e8fb586-9b9f-4f86-8b70-c42fc92a91c1" valueTypeId="0deb081b-9b88-4e6f-92ae-46b6a40be296"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>График работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InList</editType>
+  <standardAttributes>
+    <name>Active</name>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>День графика работы</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>График работы</value>
+  </listPresentation>
+  <resources uuid="e234bae1-5048-48d1-b338-4a53e7b1ffaa">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий день (1 - да, 0 - нет)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="be55c31a-f844-4dde-a6b9-866db97a13b7">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d058a8c9-a32b-4182-84b2-f34db5565896">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты (ВКМ)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>false</includeInCommandInterface>
+  <content>Enum.ВидыДоговоровКонтрагентов</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеОбслуживанийКлиентов</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеСотрудников</content>
+  <content>Constant.ВКМ_ТокенТелеграмБота</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыТелеграм</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>CommonModule.ВКМ_Телеграм</content>
+  <content>ScheduledJob.ВКМ_ОтправкаУведомленийТелеграм</content>
+  <content>CommonForm.ВКМ_НастройкиОбслуживанияКлиентов</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_МассовоеСозданиеАктов</content>
+  <content>CommonModule.ВКМ_УправлениеДоступом</content>
+  <content>InformationRegister.ВКМ_ГрафикРаботы</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>AccumulationRegister.ВКМ_ЗапланированныеОтпуска</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>Document.ВКМ_НачислениеЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>CommonModule.ВКМ_РасчетЗарплаты</content>
+  <content>CommonModule.ВКМ_РасчетЗарплатыКлиентСервер</content>
+  <content>Role.ВКМ_РасчетЗарплаты</content>
+  <content>AccumulationRegister.ВКМ_ВыставленныеАкты</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Role.ВКМ_ОтчетВыработкаСпециалистов</content>
+  <content>Role.ВКМ_ОтчетАнализВыставленныхАктов</content>
+  <content>Role.ВКМ_ОтчетыПоЗарплате</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеДемоДанных</content>
+</mdclass:Subsystem>

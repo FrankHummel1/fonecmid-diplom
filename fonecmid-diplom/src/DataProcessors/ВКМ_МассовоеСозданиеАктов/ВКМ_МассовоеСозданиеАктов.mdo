@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cacdd542-9bf9-4655-9318-0ec83a3db30f">
+  <producedTypes>
+    <objectType typeId="bfae9dc8-7959-4497-85d0-0e3ff6f86936" valueTypeId="b760f44e-6974-48db-8bb4-108827591662"/>
+    <managerType typeId="94b2ba0c-c6f6-4c83-b3cf-32b35f37c1d3" valueTypeId="c5cb2d4c-a10e-4b28-aec2-da3adb4666af"/>
+  </producedTypes>
+  <name>ВКМ_МассовоеСозданиеАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовое создание актов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
+  <attributes uuid="ecb41015-8135-416e-bb1c-66915342811d">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период (месяц)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="a4f3e99b-0729-4dea-8d8b-b45fff94459a">
+    <producedTypes>
+      <objectType typeId="b53d4f52-8800-4266-a1b6-884d59d44a9a" valueTypeId="fa36b8a9-8b06-4acc-a622-857ec7224b28"/>
+      <rowType typeId="10219d73-9b34-4155-8a2b-a5c70b283f23" valueTypeId="634b7bf4-039f-4827-97ba-f8f7e5798e0e"/>
+    </producedTypes>
+    <name>Договоры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договоры</value>
+    </synonym>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f45bb3c4-15df-4807-8725-8b9830f6aaa5">
+      <name>Договор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="034526c5-aa80-462b-b666-99b570b7df16">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2beee2ac-e1d5-4c8b-b023-2f841feeb545">
+      <name>Реализация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реализация (акт)</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d50517bc-95d2-47cb-90a1-deacff4e2c05">
+      <name>СуммаДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма акта</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9423fd30-a4c3-4c3c-990b-851d881fb6cc">
+      <name>Результат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Результат</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="797d2c50-c180-45f2-98e0-e834273270eb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

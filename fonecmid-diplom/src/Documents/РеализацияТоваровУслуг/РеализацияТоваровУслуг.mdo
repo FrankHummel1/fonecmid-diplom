@@ -72,6 +72,7 @@
   <defaultListForm>Document.РеализацияТоваровУслуг.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <registerRecords>AccumulationRegister.ОбработкаЗаказов</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ВыставленныеАкты</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="c7ac2c20-577c-4b41-9689-ee5f9e0b5bea">
@@ -200,6 +201,7 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -366,6 +368,7 @@
         <types>Number</types>
         <numberQualifiers>
           <precision>10</precision>
+          <scale>2</scale>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -410,4 +413,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="2f1801b5-44f9-4b3e-a429-da78c9f52de2">
+    <name>ВКМ_ПФ_MXL_АктОбОказанныхУслугах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт об оказанных услугах (ВКМ)</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

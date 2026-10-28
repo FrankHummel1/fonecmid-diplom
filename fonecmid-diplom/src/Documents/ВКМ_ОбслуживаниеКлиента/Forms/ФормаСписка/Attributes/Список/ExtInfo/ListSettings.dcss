@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Специалист</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>0eeb93b2-fde3-4476-a179-2443e9ead40c</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Клиент</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>720c1916-2863-45fa-92e3-0a4e9a98c292</userSettingID>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>3f5096d2-7bed-43de-a561-5f84a1b457a0</userSettingID>
+	</filter>
+	<order>
+		<viewMode>Normal</viewMode>
+		<userSettingID>3552c1e0-8fd7-4f9a-853f-74bd0f45490c</userSettingID>
+	</order>
+	<conditionalAppearance>
+		<viewMode>Normal</viewMode>
+		<userSettingID>207ef48b-cdb5-403f-b144-40cf0cca5cc8</userSettingID>
+	</conditionalAppearance>
+	<itemsViewMode>Normal</itemsViewMode>
+	<itemsUserSettingID>b3a0c32a-6346-4d47-8f35-5b81950c8e87</itemsUserSettingID>
+</Settings>
