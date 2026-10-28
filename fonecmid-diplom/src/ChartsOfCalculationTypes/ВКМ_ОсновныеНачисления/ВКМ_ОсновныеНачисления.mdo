@@ -107,7 +107,7 @@
       <code xsi:type="core:StringValue">
         <value>000000001</value>
       </code>
-      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Predefined.Отпуск</displaced>
+      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</displaced>
     </items>
     <items id="0a16cc1f-ed81-4e07-8dd5-fc126d1ab751">
       <name>ПроцентОтРабот</name>
@@ -122,10 +122,9 @@
       <code xsi:type="core:StringValue">
         <value>000000003</value>
       </code>
-      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Predefined.Оклад</base>
-      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Predefined.ПроцентОтРабот</base>
-      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Predefined.Отпуск</base>
-      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.Predefined.Премия</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ПроцентОтРабот</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.Премия</base>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>
