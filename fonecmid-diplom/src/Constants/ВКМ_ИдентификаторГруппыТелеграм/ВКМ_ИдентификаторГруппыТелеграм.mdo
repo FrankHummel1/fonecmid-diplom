@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e1102ab-53c7-4c9b-b87f-c04598c2110f">
+  <producedTypes>
+    <managerType typeId="b3897e2c-1332-4243-96f0-7296e457c618" valueTypeId="de475b67-55f6-4c84-b812-b00b079f3339"/>
+    <valueManagerType typeId="084da65f-61d4-4c98-ab5e-26e97b48b1ad" valueTypeId="08028f7d-6693-4442-b43c-4fd5e2044087"/>
+    <valueKeyType typeId="11b43c12-d473-4553-b439-3c9c73746c97" valueTypeId="e458b096-7cd0-41a9-b2f0-1d99d9e6053f"/>
+  </producedTypes>
+  <name>ВКМ_ИдентификаторГруппыТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор группы для оповещения</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Идентификатор (chat_id) группы Телеграм, в которую бот отправляет уведомления</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

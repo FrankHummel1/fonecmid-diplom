@@ -15,4 +15,12 @@
   <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
   <content>Role.ВКМ_ДобавлениеИзменениеОбслуживанийКлиентов</content>
   <content>Role.ВКМ_ДобавлениеИзменениеСотрудников</content>
+  <content>Constant.ВКМ_ТокенТелеграмБота</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыТелеграм</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>CommonModule.ВКМ_Телеграм</content>
+  <content>ScheduledJob.ВКМ_ОтправкаУведомленийТелеграм</content>
+  <content>CommonForm.ВКМ_НастройкиОбслуживанияКлиентов</content>
 </mdclass:Subsystem>
