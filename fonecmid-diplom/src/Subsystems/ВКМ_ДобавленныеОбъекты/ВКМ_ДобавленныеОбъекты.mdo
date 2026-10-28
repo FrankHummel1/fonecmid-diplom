@@ -45,4 +45,12 @@
   <content>CommonModule.ВКМ_РасчетЗарплаты</content>
   <content>CommonModule.ВКМ_РасчетЗарплатыКлиентСервер</content>
   <content>Role.ВКМ_РасчетЗарплаты</content>
+  <content>AccumulationRegister.ВКМ_ВыставленныеАкты</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Role.ВКМ_ОтчетВыработкаСпециалистов</content>
+  <content>Role.ВКМ_ОтчетАнализВыставленныхАктов</content>
+  <content>Role.ВКМ_ОтчетыПоЗарплате</content>
 </mdclass:Subsystem>
