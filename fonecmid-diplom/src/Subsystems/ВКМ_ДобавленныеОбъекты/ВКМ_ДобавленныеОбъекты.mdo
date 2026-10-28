@@ -9,4 +9,10 @@
   <includeInCommandInterface>false</includeInCommandInterface>
   <content>Enum.ВидыДоговоровКонтрагентов</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеОбслуживанийКлиентов</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеСотрудников</content>
 </mdclass:Subsystem>
