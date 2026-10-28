@@ -25,4 +25,6 @@
   <content>CommonForm.ВКМ_НастройкиОбслуживанияКлиентов</content>
   <content>Document.РеализацияТоваровУслуг</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_МассовоеСозданиеАктов</content>
+  <content>CommonModule.ВКМ_УправлениеДоступом</content>
 </mdclass:Subsystem>
